@@ -1,9 +1,9 @@
 <template>
-  <div class="header">
+  <header>
     <nuxt-link class="header-link" to="/">Jim Strother</nuxt-link>
     <div class="flex-1"></div>
     <Navigation class="flex-initial" />
-  </div>
+  </header>
 </template>
 
 <script>
@@ -16,8 +16,9 @@ export default {
 </script>
 
 <style scoped>
-.header {
+header {
   @apply min-w-full;
+  @apply h-14;
   @apply bg-gray-500;
   @apply flex;
 }

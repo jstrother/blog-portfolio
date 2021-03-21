@@ -1,15 +1,27 @@
 <template>
-  <div class="p-0">
+  <div class="container">
     <Header />
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '~/components/app/Header';
+import Footer from '~/components/app/Footer';
 export default {
   components: {
     Header,
+    Footer,
   },
 };
 </script>
+
+<style scoped>
+.container {
+  @apply flex;
+  @apply flex-col;
+  @apply min-h-screen;
+  @apply min-w-full;
+}
+</style>
