@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:js": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
     "lint": "npm run lint:js && npm run lint:style",
     "test": "jest"
@@ -29,8 +29,10 @@
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
-    "@nuxtjs/tailwindcss": "^2.1.0",
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "@tailwindcss/postcss7-compat": "^2.0.4",
     "@vue/test-utils": "^1.0.3",
+    "autoprefixer": "^9.8.6",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.1.0",
@@ -41,10 +43,12 @@
     "husky": "^4.2.5",
     "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
+    "postcss": "^7.0.35",
     "prettier": "^2.0.5",
     "stylelint": "^13.6.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4",
     "vue-jest": "^3.0.4"
   }
 }

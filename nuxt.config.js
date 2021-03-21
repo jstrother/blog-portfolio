@@ -22,8 +22,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'The portfolio and blog of Jim Strother, Full-Stack JavaScript Developer',
+        content: 'The portfolio and blog of Jim Strother, Full-Stack JavaScript Developer',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -70,4 +69,4 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
-}
+};

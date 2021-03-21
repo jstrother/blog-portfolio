@@ -20,6 +20,7 @@ module.exports = {
         fadeIn5s: 'fadeIn 5s ease-in',
         fadeIn7s: 'fadeIn 7s ease-in',
         fadeIn9s: 'fadeIn 9s ease-in',
+        fadeIn11s: 'fadeIn 11s ease-in',
       },
     },
   },
@@ -36,4 +37,4 @@ module.exports = {
       'nuxt.config.js',
     ],
   },
-}
+};
