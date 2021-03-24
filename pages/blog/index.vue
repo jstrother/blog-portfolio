@@ -67,7 +67,7 @@ main {
 .title-bar > h1 {
   @apply text-2xl;
   @apply font-bold;
-  @apply pt-2;
+  @apply pt-2.5;
 }
 .posts {
   @apply flex;
