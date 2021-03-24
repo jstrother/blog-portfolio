@@ -12,17 +12,17 @@ export default {
     return {
       contact: [
         {
-          icon: 'img/icons/github.png',
+          icon: '/img/icons/github.png',
           link: 'https://github.com/jstrother',
           name: 'GitHub Logo',
         },
         {
-          icon: 'img/icons/twitter.png',
+          icon: '/img/icons/twitter.png',
           link: 'https://twitter.com/Jim_Codes_JS',
           name: 'Twitter Logo',
         },
         {
-          icon: 'img/icons/linkedin.png',
+          icon: '/img/icons/linkedin.png',
           link: 'https://www.linkedin.com/in/jimstrother/',
           name: 'LinkedIn Logo',
         },

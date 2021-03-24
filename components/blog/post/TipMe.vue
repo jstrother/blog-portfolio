@@ -5,6 +5,8 @@
         Did you like what you read?
         <br />
         Throw a little Nano my way!
+        <br />
+        <a href="https://nano.org/" target="_blank" class="nano">More Info About Nano</a>
       </div>
       <img
         src="/img/blog/nano-wallet-qr-code.jpg"
@@ -23,7 +25,8 @@
   @apply flex;
   @apply flex-col;
   @apply flex-nowrap;
-  @apply md:mt-4;
+  @apply mt-4;
+  @apply lg:mt-auto;
 }
 .top-row {
   @apply flex;
@@ -37,6 +40,11 @@ img {
   @apply w-20;
   @apply h-20;
   @apply m-0.5;
+}
+.nano {
+  @apply text-sm;
+  @apply underline;
+  @apply ml-4;
 }
 p {
   @apply text-xs;
