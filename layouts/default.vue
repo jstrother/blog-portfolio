@@ -21,7 +21,8 @@ export default {
 .container {
   @apply flex;
   @apply flex-col;
-  @apply min-h-screen;
+  @apply h-screen;
   @apply min-w-full;
+  @apply justify-between;
 }
 </style>

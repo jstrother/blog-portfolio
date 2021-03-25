@@ -40,5 +40,6 @@ footer {
   @apply flex;
   @apply justify-center;
   @apply items-center;
+  @apply bottom-0;
 }
 </style>

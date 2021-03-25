@@ -56,6 +56,7 @@ main {
   @apply flex;
   @apply flex-col;
   @apply flex-nowrap;
+  @apply mb-auto;
 }
 .title-bar {
   @apply justify-self-start;
@@ -64,7 +65,7 @@ main {
   @apply justify-around;
   @apply content-center;
 }
-.title-bar > h1 {
+h1 {
   @apply text-2xl;
   @apply font-bold;
   @apply pt-2.5;

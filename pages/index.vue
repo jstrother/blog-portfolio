@@ -22,5 +22,6 @@ main {
   @apply justify-center;
   @apply items-center;
   @apply text-center;
+  @apply mb-auto;
 }
 </style>

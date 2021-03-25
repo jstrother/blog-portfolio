@@ -49,6 +49,7 @@ export default {
   @apply m-2;
   @apply rounded-lg;
   @apply shadow-lg;
+  @apply bg-gray-50;
 }
 img {
   @apply max-w-full;
@@ -68,7 +69,7 @@ img {
   @apply font-light;
 }
 p {
-  @apply p-1;
+  @apply p-2;
   @apply font-light;
 }
 </style>
