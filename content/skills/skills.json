@@ -4,32 +4,38 @@
       {
         "name": "HTML",
         "level": 90,
-        "bgColor": "#07AD6C",
+        "bgColor": "#F16529",
         "image": "/img/skills/html5.png"
       },
       {
         "name": "CSS3",
         "level": 90,
-        "bgColor": "#07AD6C",
+        "bgColor": "#3C9CD7",
         "image": "/img/skills/css3.png"
       },
       {
         "name": "SCSS",
         "level": 90,
-        "bgColor": "#07AD6C",
+        "bgColor": "#CE679A",
         "image": "img/skills/scss.png"
       },
       {
         "name": "TailwindCSS",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#4CB2B4",
         "image": "img/skills/tailwind-css.png"
       },
       {
         "name": "JavaScript",
         "level": 90,
-        "bgColor": "#07AD6C",
+        "bgColor": "#000000",
         "image": "/img/skills/js.png"
+      },
+      {
+        "name": "Svelte",
+        "level": 75,
+        "bgColor": "#FF3E00",
+        "image": "/img/skills/sveltejs.png"
       },
       {
         "name": "Vue",
@@ -40,19 +46,19 @@
       {
         "name": "Vuex",
         "level": 75,
-        "bgColor": "#07AD6C",
+        "bgColor": "#35485D",
         "image": "/img/skills/vuex.png"
       },
       {
         "name": "Vue Router",
         "level": 75,
-        "bgColor": "#07AD6C",
+        "bgColor": "#1CCC90",
         "image": "/img/skills/vue-router.jpg"
       },
       {
         "name": "Nuxt.js",
         "level": 75,
-        "bgColor": "#07AD6C",
+        "bgColor": "#138977",
         "image": "img/skills/nuxt.png"
       }
     ],
@@ -60,55 +66,55 @@
       {
         "name": "Node",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#79B262",
         "image": "img/skills/node.png"
       },
       {
         "name": "ExpressJS",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#27B560",
         "image": "img/skills/express.png"
       },
       {
         "name": "REST APIs",
         "level": 85,
-        "bgColor": "#07AD6C",
+        "bgColor": "#21B5CF",
         "image": "img/skills/rest-api.png"
       },
       {
         "name": "NestJS",
-        "level": 40,
-        "bgColor": "#07AD6C",
+        "level": 50,
+        "bgColor": "#E0234E",
         "image": "img/skills/nestjs.png"
       },
       {
         "name": "MongoDB",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#4F9345",
         "image": "img/skills/mongo.png"
       },
       {
         "name": "Mongoose",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#880000",
         "image": "/img/skills/mongoose.jpg"
       },
       {
         "name": "PassportJS",
         "level": 70,
-        "bgColor": "#07AD6C",
+        "bgColor": "#34E27A",
         "image": "img/skills/passport.png"
       },
       {
         "name": "bCrypt",
-        "level": 65,
-        "bgColor": "#07AD6C",
+        "level": 50,
+        "bgColor": "#555555",
         "image": "/img/skills/bCrypt.jpg"
       },
       {
         "name": "JWT",
         "level": 45,
-        "bgColor": "#07AD6C",
+        "bgColor": "#D63AFF",
         "image": "img/skills/jwt.png"
       }
     ],
@@ -116,13 +122,13 @@
       {
         "name": "Mocha (w/ Chai)",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#8E6748",
         "image": "img/skills/mocha-chai.jpg"
       },
       {
         "name": "Jest",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#C5380B",
         "image": "img/skills/jest.png"
       }
     ],
@@ -130,19 +136,19 @@
       {
         "name": "TypeScript",
         "level": 70,
-        "bgColor": "#07AD6C",
+        "bgColor": "#007ACC",
         "image": "/img/skills/typescript.png"
       },
       {
         "name": "Ramda",
         "level": 50,
-        "bgColor": "#07AD6C",
+        "bgColor": "#090705",
         "image": "img/skills/ramda.png"
       },
       {
         "name": "RxJS",
         "level": 30,
-        "bgColor": "#07AD6C",
+        "bgColor": "#E5189A",
         "image": "img/skills/rxjs.jpg"
       }
     ],
@@ -150,25 +156,25 @@
       {
         "name": "Responsive Web Design",
         "level": 90,
-        "bgColor": "#07AD6C",
+        "bgColor": "#020101",
         "image": "img/skills/rwd.jpg"
       },
       {
         "name": "NPM",
         "level": 95,
-        "bgColor": "#07AD6C",
+        "bgColor": "#CC3534",
         "image": "img/skills/npm.png"
       },
       {
         "name": "Git",
         "level": 80,
-        "bgColor": "#07AD6C",
+        "bgColor": "#000000",
         "image": "img/skills/git.png"
       },
       {
         "name": "OOP",
         "level": 85,
-        "bgColor": "#07AD6C",
+        "bgColor": "#030303",
         "image": "img/skills/oop.png"
       }
     ]

@@ -41,9 +41,6 @@ export default {
 <style scoped>
 .search {
   @apply self-center;
-  @apply border;
-  @apply border-black;
-  @apply rounded-lg;
   @apply p-2;
   @apply my-2;
   @apply -mr-4;

@@ -3,7 +3,6 @@
     <section class="title-bar">
       <h1>Projects</h1>
     </section>
-    <hr />
     <section class="projects-group">
       <ProjectCard
         v-for="(project, index) in projects"
@@ -43,6 +42,7 @@ main {
   @apply justify-around;
   @apply mb-auto;
   @apply p-14;
+  @apply bg-gray-100;
 }
 .title-bar {
   @apply flex;

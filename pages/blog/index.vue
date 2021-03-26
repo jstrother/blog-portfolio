@@ -58,6 +58,7 @@ main {
   @apply flex-nowrap;
   @apply mb-auto;
   @apply p-14;
+  @apply bg-gray-100;
 }
 .title-bar {
   @apply justify-self-start;

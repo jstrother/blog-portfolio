@@ -58,6 +58,7 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    'vue-scrollto/nuxt',
   ],
   /*
    ** Content module configuration
