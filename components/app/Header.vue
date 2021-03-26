@@ -21,6 +21,7 @@ header {
   @apply h-14;
   @apply bg-gray-500;
   @apply flex;
+  @apply fixed;
 }
 .header-link {
   @apply text-white;

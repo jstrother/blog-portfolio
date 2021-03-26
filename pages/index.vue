@@ -23,5 +23,6 @@ main {
   @apply items-center;
   @apply text-center;
   @apply mb-auto;
+  @apply p-14;
 }
 </style>

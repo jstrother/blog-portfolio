@@ -4,8 +4,22 @@
       "name": "Fantasy Soccer League",
       "image": "img/projects/work-in-progress.jpg",
       "description": "This is a fantasy soccer league that pulls in real-world statistics from over 40 real leagues around the world. A user is then able to create a fantasy team based upon one of those leagues, choose players, set a lineup, and compete against other users. This will be built using NuxtJS for the front, NestJS for the back, and MongoDB/Mongoose for storage. This project is going to be my most challenging project to date as I have to not only design the layout, but also determine how the various pieces need to interact with one another.",
-      "liveExample": " ",
-      "gitHub": " "
+      "liveExample": "",
+      "gitHub": ""
+    },
+    {
+      "name": "Wet Your Whistle",
+      "image": "img/projects/beer-finder.jpg",
+      "description": "This is an app to find breweries and brewpubs near your location. Built in SvelteJS, it is based off of the Web Geolocation API to find where you are located. Then, it uses the Google Maps API and the Open Brewer Database to find locations near you and, finally, gives you directions in an embedded Google map. Give it a try and 'Wet Your Whistle'!",
+      "liveExample": "https://wet-your-whistle.herokuapp.com/",
+      "gitHub": "https://github.com/jstrother/drink-local"
+    },
+    {
+      "name": "Cryptograms",
+      "image": "img/projects/cryptogram-game.jpg",
+      "description": "Do you like puzzles? Then you'll enjoy this game! Movie quotes have been encrypted and it is your job to solve them. Each letter has been replaced with another one (ie- all A's have been replaced with J's). The encryption is different each time, so you'll never play the same game twice! Built with NuxtJS (and love!).",
+      "liveExample": "http://cryptogram-game.herokuapp.com/",
+      "gitHub": "https://github.com/jstrother/cryptogram-game"
     },
     {
       "name": "Nate Taylor's Portfolio",

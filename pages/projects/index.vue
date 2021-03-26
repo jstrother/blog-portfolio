@@ -42,6 +42,7 @@ main {
   @apply flex-nowrap;
   @apply justify-around;
   @apply mb-auto;
+  @apply p-14;
 }
 .title-bar {
   @apply flex;

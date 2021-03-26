@@ -6,8 +6,8 @@
     </section>
     <p>{{ description }}</p>
     <section class="btn-container">
-      <Button :url="gitHub" text="GitHub Repository" />
-      <Button :url="liveExample" text="Live Example" />
+      <Button v-show="gitHub" :url="gitHub" text="GitHub" />
+      <Button v-show="liveExample" :url="liveExample" text="Live Example" />
     </section>
   </div>
 </template>
@@ -34,11 +34,11 @@ export default {
     },
     gitHub: {
       type: String,
-      required: true,
+      default: '',
     },
     liveExample: {
       type: String,
-      required: true,
+      default: '',
     },
   },
 };
@@ -49,6 +49,7 @@ export default {
   @apply flex;
   @apply flex-col;
   @apply flex-wrap;
+  @apply justify-between;
   @apply m-2;
   @apply p-2;
   @apply rounded-lg;
@@ -64,10 +65,15 @@ export default {
   @apply md:flex-row;
   @apply justify-around;
 }
+h3 {
+  @apply font-medium;
+  @apply mb-2;
+}
 img {
   @apply w-48;
   @apply max-w-full;
   @apply rounded-xl;
+  @apply mb-2;
 }
 .btn-container {
   @apply flex;

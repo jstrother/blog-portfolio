@@ -57,6 +57,7 @@ main {
   @apply flex-col;
   @apply flex-nowrap;
   @apply mb-auto;
+  @apply p-14;
 }
 .title-bar {
   @apply justify-self-start;

@@ -48,6 +48,7 @@ export default {
   @apply flex-col;
   @apply justify-center;
   @apply items-center;
+  @apply max-h-48;
 }
 h1 {
   @apply text-lg;
