@@ -46,7 +46,7 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex flex-col flex-wrap justify-between m-2 p-2 rounded-lg shadow-lg w-96 bg-gray-50;
+  @apply flex flex-col flex-wrap justify-between m-2 p-2 rounded-lg shadow-lg w-96 bg-gray-50 animate-fadeIn3s;
 }
 .card-title {
   @apply flex flex-col flex-nowrap items-center md:flex-row justify-around;
