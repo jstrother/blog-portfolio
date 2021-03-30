@@ -43,48 +43,24 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply w-40;
-  @apply md:w-80;
-  @apply m-2;
-  @apply p-2;
-  @apply border-2;
-  @apply border-gray-300;
-  @apply rounded-lg;
-  @apply shadow-lg;
-  @apply bg-gray-50;
+  @apply flex flex-col flex-nowrap w-40 md:w-80 m-2 p-2 border-2 border-gray-300 rounded-lg shadow-lg bg-gray-50;
 }
 h3 {
   @apply font-medium;
 }
 img {
-  @apply m-2;
-  @apply w-12;
-  @apply md:w-28;
-  @apply h-12;
-  @apply md:h-28;
-  @apply rounded-md;
+  @apply m-2 w-12 md:w-28 h-12 md:h-28 rounded-md;
 }
 
 .skill-bar {
   @apply box-border;
 }
 .skill-container {
-  @apply w-full;
-  @apply bg-gray-300;
-  @apply rounded-md;
+  @apply w-full bg-gray-300 rounded-md;
 }
 .skills {
   background-color: var(--bg-color);
   width: var(--skill-width);
-  @apply text-sm;
-  @apply md:text-base;
-  @apply lg:text-xl;
-  @apply text-right;
-  @apply text-white;
-  @apply p-4;
-  @apply rounded-l-md;
+  @apply text-sm md:text-base lg:text-xl text-right text-white p-4 rounded-l-md;
 }
 </style>

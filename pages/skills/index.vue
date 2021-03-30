@@ -69,40 +69,21 @@ export default {
 
 <style scoped>
 main {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-around;
-  @apply bg-gray-100;
-  @apply p-14;
-  @apply mb-auto;
+  @apply flex flex-col flex-nowrap justify-around bg-gray-200 p-14 mb-auto;
 }
 .title-bar {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-center;
-  @apply items-center;
+  @apply flex flex-col flex-nowrap justify-center items-center;
 }
 h1 {
-  @apply text-2xl;
-  @apply font-bold;
-  @apply p-2.5;
+  @apply text-2xl font-bold p-2.5;
 }
 nav {
-  @apply flex;
-  @apply flex-row;
-  @apply flex-nowrap;
+  @apply flex flex-row flex-nowrap;
 }
 a {
-  @apply text-black;
-  @apply underline;
-  @apply m-2;
+  @apply text-black underline m-2;
 }
 .skill-section {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-around;
+  @apply flex flex-col flex-nowrap justify-around;
 }
 </style>

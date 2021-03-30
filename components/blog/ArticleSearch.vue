@@ -40,14 +40,10 @@ export default {
 
 <style scoped>
 .search {
-  @apply self-center;
-  @apply p-2;
-  @apply my-2;
-  @apply -mr-4;
+  @apply self-center p-2 my-2 -mr-4;
 }
 input {
-  @apply text-center;
-  @apply outline-none;
+  @apply text-center outline-none;
 }
 
 ul {
@@ -55,7 +51,6 @@ ul {
 }
 
 .link {
-  @apply no-underline;
-  @apply text-black;
+  @apply no-underline text-black;
 }
 </style>

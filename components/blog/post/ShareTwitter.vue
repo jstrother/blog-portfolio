@@ -3,7 +3,7 @@
     <div class="call-to-tweet">
       Share this article with the world!
       <br />
-      Let everyone know you think this is a great read!
+      Let everyone know you think this is a great article!
     </div>
     <a
       href="https://twitter.com/share?ref_src=twsrc%5Etfw"
@@ -45,11 +45,7 @@ export default {
 
 <style scoped>
 .share-twitter {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-center;
-  @apply items-center;
+  @apply flex flex-col flex-nowrap justify-center items-center;
 }
 .call-to-tweet {
   @apply text-center;

@@ -44,11 +44,7 @@ export default {
 
 <style scoped>
 .container {
-  @apply flex;
-  @apply flex-col;
-  @apply justify-center;
-  @apply items-center;
-  @apply max-h-48;
+  @apply flex flex-col justify-center items-center max-h-48;
 }
 h1 {
   @apply text-lg;

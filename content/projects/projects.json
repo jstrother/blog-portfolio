@@ -17,7 +17,7 @@
     {
       "name": "Cryptograms",
       "image": "img/projects/cryptogram-game.jpg",
-      "description": "Do you like puzzles? Then you'll enjoy this game! Movie quotes have been encrypted and it is your job to solve them. Each letter has been replaced with another one (ie- all A's have been replaced with J's). The encryption is different each time, so you'll never play the same game twice! Built with NuxtJS (and love!).",
+      "description": "Do you like puzzles? Then you'll enjoy this game! Movie quotes have been encrypted and it is your job to solve them. Each letter has been replaced with another one (ie- all A's have been replaced with J's). The encryption is different each time, so you'll never play the same game twice! Built with NuxtJS (and love!). Just to let you know, it is hosted on a free Heroku dyno, so give it a few extra seconds to fully spin up.",
       "liveExample": "http://cryptogram-game.herokuapp.com/",
       "gitHub": "https://github.com/jstrother/cryptogram-game"
     },

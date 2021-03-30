@@ -31,8 +31,7 @@ export default {
 
 <style scoped>
 ul {
-  @apply pl-4;
-  @apply list-none;
+  @apply pl-4 list-none;
 }
 .sub-heading {
   @apply pl-4;

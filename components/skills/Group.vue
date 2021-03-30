@@ -41,38 +41,21 @@ export default {
 
 <style scoped>
 div {
-  @apply self-center;
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-center;
-  @apply m-6;
-  @apply p-2;
-  @apply w-11/12;
+  @apply self-center flex flex-col flex-nowrap justify-center m-6 p-2 w-11/12;
 }
 .group-title {
-  @apply self-center;
-  @apply flex;
-  @apply flex-row;
-  @apply flex-nowrap;
-  @apply justify-around;
-  @apply w-full;
+  @apply self-center flex flex-row flex-nowrap justify-around w-full;
 }
 .group-title-item {
-  @apply w-60;
-  @apply text-center;
+  @apply w-60 text-center;
 }
 h3 {
   @apply font-medium;
 }
 a {
-  @apply text-black;
-  @apply underline;
+  @apply text-black underline;
 }
 .skill-container {
-  @apply flex;
-  @apply flex-row;
-  @apply flex-wrap;
-  @apply w-full;
+  @apply flex flex-row flex-wrap w-full;
 }
 </style>

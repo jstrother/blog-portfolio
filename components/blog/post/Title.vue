@@ -37,20 +37,12 @@ export default {
 
 <style scoped>
 .title {
-  @apply flex;
-  @apply flex-col;
-  @apply justify-center;
-  @apply items-center;
-  @apply pt-2;
-  @apply mb-2;
+  @apply flex flex-col justify-center items-center pt-2 mb-2;
 }
 h1 {
-  @apply text-5xl;
-  @apply mb-2;
+  @apply text-5xl mb-2;
 }
 img {
-  @apply max-w-xs;
-  @apply max-h-60;
-  @apply rounded-md;
+  @apply max-w-xs max-h-60 rounded-md;
 }
 </style>

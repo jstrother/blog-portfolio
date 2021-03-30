@@ -43,33 +43,18 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-wrap;
-  @apply m-2;
-  @apply rounded-lg;
-  @apply shadow-lg;
-  @apply bg-gray-50;
+  @apply flex flex-col flex-wrap m-2 rounded-lg shadow-lg bg-gray-50;
 }
 img {
-  @apply max-w-full;
-  @apply max-h-20;
-  @apply rounded-t-lg;
+  @apply max-w-full max-h-20 rounded-t-lg;
 }
 .title {
-  @apply self-center;
-  @apply text-xl;
-  @apply font-medium;
+  @apply self-center text-xl font-medium;
 }
 .subtitle {
-  @apply flex;
-  @apply flex-row;
-  @apply flex-nowrap;
-  @apply justify-around;
-  @apply font-light;
+  @apply flex flex-row flex-nowrap justify-around font-light;
 }
 p {
-  @apply p-2;
-  @apply font-light;
+  @apply p-2 font-light;
 }
 </style>

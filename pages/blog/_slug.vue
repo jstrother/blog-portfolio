@@ -61,17 +61,9 @@ export default {
 
 <style scoped>
 article {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply my-14;
-  @apply mx-auto;
-  @apply w-9/12;
+  @apply flex flex-col flex-nowrap my-14 mx-auto w-9/12;
 }
 .post-footer {
-  @apply flex;
-  @apply flex-row;
-  @apply flex-wrap;
-  @apply justify-around;
+  @apply flex flex-row flex-wrap justify-around;
 }
 </style>

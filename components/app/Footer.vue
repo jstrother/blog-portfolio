@@ -34,12 +34,6 @@ export default {
 
 <style scoped>
 footer {
-  @apply min-w-full;
-  @apply h-14;
-  @apply bg-gray-300;
-  @apply flex;
-  @apply justify-center;
-  @apply items-center;
-  @apply bottom-0;
+  @apply min-w-full h-14 bg-gray-300 flex justify-center items-center bottom-0;
 }
 </style>

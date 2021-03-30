@@ -4,53 +4,28 @@
       <div class="call-to-action">
         Did you like what you read?
         <br />
-        Throw a little Nano my way!
-        <br />
-        <a href="https://nano.org/" target="_blank" class="nano">More Info About Nano</a>
+        <a href="https://www.buymeacoffee.com/jstrother" target="_blank" class="coffee">
+          Buy me a coffee! <img src="/img/icons/coffee.png" alt="Buy me a coffee!" />
+        </a>
       </div>
-      <img
-        src="/img/blog/nano-wallet-qr-code.jpg"
-        alt="nano_3e9zew3ccdqqmigmb4iecxbgkp4ff4bmmfdcb7yo45tt8egtc7ghxfqj8ct1"
-      />
     </div>
-    <p>
-      Nano Wallet:
-      <span>nano_3e9zew3ccdqqmigmb4iecxbgkp4ff4bmmfdcb7yo45tt8egtc7ghxfqj8ct1</span>
-    </p>
   </div>
 </template>
 
 <style scoped>
 .tip-me {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply mt-4;
-  @apply lg:mt-auto;
+  @apply flex flex-col flex-nowrap mt-4 lg:mt-auto;
 }
 .top-row {
-  @apply flex;
-  @apply flex-nowrap;
-  @apply justify-around;
+  @apply flex flex-nowrap justify-around;
 }
 .call-to-action {
   @apply pt-4;
 }
 img {
-  @apply w-20;
-  @apply h-20;
-  @apply m-0.5;
+  @apply m-0.5 ml-1.5;
 }
-.nano {
-  @apply text-sm;
-  @apply underline;
-  @apply ml-4;
-}
-p {
-  @apply text-xs;
-  @apply text-gray-500;
-}
-span {
-  @apply select-all;
+.coffee {
+  @apply flex flex-row flex-nowrap underline ml-4;
 }
 </style>

@@ -46,38 +46,18 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-wrap;
-  @apply justify-between;
-  @apply m-2;
-  @apply p-2;
-  @apply rounded-lg;
-  @apply shadow-lg;
-  @apply w-96;
-  @apply bg-gray-50;
+  @apply flex flex-col flex-wrap justify-between m-2 p-2 rounded-lg shadow-lg w-96 bg-gray-50;
 }
 .card-title {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply items-center;
-  @apply md:flex-row;
-  @apply justify-around;
+  @apply flex flex-col flex-nowrap items-center md:flex-row justify-around;
 }
 h3 {
-  @apply font-medium;
-  @apply mb-2;
+  @apply font-medium mb-2;
 }
 img {
-  @apply w-48;
-  @apply max-w-full;
-  @apply rounded-xl;
-  @apply mb-2;
+  @apply w-48 max-w-full rounded-xl mb-2;
 }
 .btn-container {
-  @apply flex;
-  @apply justify-around;
-  @apply m-2;
+  @apply flex justify-around m-2;
 }
 </style>

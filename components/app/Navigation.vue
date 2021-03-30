@@ -31,7 +31,6 @@ export default {
 
 <style scoped>
 .nav-link {
-  @apply text-white;
-  @apply no-underline;
+  @apply text-white no-underline;
 }
 </style>

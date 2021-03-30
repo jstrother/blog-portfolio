@@ -52,28 +52,15 @@ export default {
 
 <style scoped>
 main {
-  @apply flex-grow;
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply mb-auto;
-  @apply p-14;
-  @apply bg-gray-100;
+  @apply flex-grow flex flex-col flex-nowrap mb-auto p-14 bg-gray-200;
 }
 .title-bar {
-  @apply justify-self-start;
-  @apply flex;
-  @apply flex-nowrap;
-  @apply justify-around;
-  @apply content-center;
+  @apply justify-self-start flex flex-nowrap justify-around content-center;
 }
 h1 {
-  @apply text-2xl;
-  @apply font-bold;
-  @apply pt-2.5;
+  @apply text-2xl font-bold pt-2.5;
 }
 .posts {
-  @apply flex;
-  @apply justify-around;
+  @apply flex justify-around;
 }
 </style>

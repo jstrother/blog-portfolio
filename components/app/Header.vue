@@ -17,19 +17,9 @@ export default {
 
 <style scoped>
 header {
-  @apply min-w-full;
-  @apply h-14;
-  @apply bg-gray-500;
-  @apply flex;
-  @apply fixed;
+  @apply min-w-full h-14 bg-gray-500 flex fixed;
 }
 .header-link {
-  @apply text-white;
-  @apply no-underline;
-  @apply flex-initial;
-  @apply flex;
-  @apply justify-center;
-  @apply items-center;
-  @apply m-4;
+  @apply text-white no-underline flex-initial flex justify-center items-center m-4;
 }
 </style>

@@ -19,10 +19,6 @@ export default {
 
 <style scoped>
 .container {
-  @apply flex;
-  @apply flex-col;
-  @apply h-screen;
-  @apply min-w-full;
-  @apply justify-between;
+  @apply flex flex-col h-screen min-w-full justify-between;
 }
 </style>

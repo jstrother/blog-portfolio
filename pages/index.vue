@@ -16,15 +16,7 @@ export default {};
 
 <style scoped>
 main {
-  @apply flex-grow;
-  @apply flex;
-  @apply flex-col;
-  @apply justify-center;
-  @apply items-center;
-  @apply text-center;
-  @apply mb-auto;
-  @apply p-14;
-  @apply bg-gray-100;
+  @apply flex-grow flex flex-col justify-center items-center text-center mb-auto p-14 bg-gray-200;
 }
 span {
   @apply text-green-400;

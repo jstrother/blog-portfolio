@@ -30,13 +30,10 @@ export default {
 
 <style scoped>
 .prevNext {
-  @apply flex;
-  @apply justify-between;
-  @apply pt-4;
+  @apply flex justify-between pt-4;
 }
 .link {
-  @apply flex;
-  @apply no-underline;
+  @apply flex no-underline;
 }
 span {
   @apply mt-2;

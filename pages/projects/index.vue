@@ -36,29 +36,15 @@ export default {
 
 <style scoped>
 main {
-  @apply flex;
-  @apply flex-col;
-  @apply flex-nowrap;
-  @apply justify-around;
-  @apply mb-auto;
-  @apply p-14;
-  @apply bg-gray-100;
+  @apply flex flex-col flex-nowrap justify-around mb-auto p-14 bg-gray-200;
 }
 .title-bar {
-  @apply flex;
-  @apply flex-col;
-  @apply items-center;
+  @apply flex flex-col items-center;
 }
 h1 {
-  @apply text-2xl;
-  @apply font-bold;
-  @apply p-2.5;
+  @apply text-2xl font-bold p-2.5;
 }
 .projects-group {
-  @apply flex;
-  @apply flex-row;
-  @apply flex-wrap;
-  @apply justify-around;
-  @apply mt-2;
+  @apply flex flex-row flex-wrap justify-around mt-2;
 }
 </style>

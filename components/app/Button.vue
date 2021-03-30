@@ -23,11 +23,7 @@ export default {
 
 <style scoped>
 button {
-  @apply p-1;
-  @apply border-2;
-  @apply border-gray-300;
-  @apply rounded-lg;
-  @apply bg-gray-200;
+  @apply p-1 border-2 border-gray-300 rounded-lg bg-gray-200;
 }
 a {
   @apply no-underline;
