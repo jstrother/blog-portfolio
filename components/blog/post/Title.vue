@@ -40,7 +40,7 @@ export default {
   @apply flex flex-col justify-center items-center pt-2 mb-2;
 }
 h1 {
-  @apply text-5xl mb-2;
+  @apply text-3xl md:text-4xl mb-2;
 }
 img {
   @apply max-w-xs max-h-60 rounded-md;

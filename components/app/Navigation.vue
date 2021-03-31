@@ -33,4 +33,7 @@ export default {
 .nav-link {
   @apply text-white no-underline;
 }
+.nuxt-link-exact-active {
+  @apply text-gray-900 text-lg;
+}
 </style>

@@ -17,9 +17,12 @@ export default {
 
 <style scoped>
 header {
-  @apply min-w-full h-14 bg-gray-500 flex fixed;
+  @apply min-w-full h-14 bg-gray-500 flex fixed z-50;
 }
 .header-link {
   @apply text-white no-underline flex-initial flex justify-center items-center m-4;
+}
+.nuxt-link-exact-active {
+  @apply text-gray-900 text-lg;
 }
 </style>

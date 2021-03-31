@@ -59,9 +59,21 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 article {
-  @apply flex flex-col flex-nowrap my-14 mx-auto w-9/12;
+  @apply flex flex-col flex-nowrap my-14 mx-auto w-11/12 md:w-2/4;
+}
+.nuxt-content > h2 {
+  @apply font-bold text-lg;
+}
+.nuxt-content > h3 {
+  @apply font-bold ml-2;
+}
+.nuxt-content > p {
+  @apply my-6 ml-4;
+}
+.nuxt-content > p > a {
+  @apply underline text-blue-400 z-0;
 }
 .post-footer {
   @apply flex flex-row flex-wrap justify-around;
