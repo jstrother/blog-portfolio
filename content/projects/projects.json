@@ -9,14 +9,14 @@
     },
     {
       "name": "Wet Your Whistle",
-      "image": "img/projects/beer-finder.jpg",
+      "image": "img/projects/beer-finder.JPG",
       "description": "This is an app to find breweries and brewpubs near your location. Built in SvelteJS, it is based off of the Web Geolocation API to find where you are located. Then, it uses the Google Maps API and the Open Brewer Database to find locations near you and, finally, gives you directions in an embedded Google map. Give it a try and 'Wet Your Whistle'!",
       "liveExample": "https://wet-your-whistle.herokuapp.com/",
       "gitHub": "https://github.com/jstrother/drink-local"
     },
     {
       "name": "Cryptograms",
-      "image": "img/projects/cryptogram-game.jpg",
+      "image": "img/projects/cryptogram-game.JPG",
       "description": "Do you like puzzles? Then you'll enjoy this game! Movie quotes have been encrypted and it is your job to solve them. Each letter has been replaced with another one (ie- all A's have been replaced with J's). The encryption is different each time, so you'll never play the same game twice! Built with NuxtJS (and love!). Just to let you know, it is hosted on a free Heroku dyno, so give it a few extra seconds to fully spin up.",
       "liveExample": "http://cryptogram-game.herokuapp.com/",
       "gitHub": "https://github.com/jstrother/cryptogram-game"
