@@ -2,8 +2,9 @@
   <div>
     <section class="group-title">
       <h3 class="group-title-item">{{ title }}</h3>
-      <v-spacer></v-spacer>
-      <a v-scroll-to="{ el: '#top' }" href="#" class="group-title-item">Back to Top</a>
+      <a v-if="title !== 'Front-End'" v-scroll-to="{ el: '#top' }" href="#" class="group-title-item"
+        >Back to Top</a
+      >
     </section>
     <div class="skill-container">
       <Display
@@ -41,7 +42,7 @@ export default {
 
 <style scoped>
 div {
-  @apply self-center flex flex-col flex-nowrap justify-center m-6 p-2 w-11/12;
+  @apply self-center flex flex-col flex-nowrap justify-center m-6 w-11/12;
 }
 .group-title {
   @apply self-center flex flex-row flex-nowrap justify-around w-full;

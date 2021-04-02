@@ -1,7 +1,6 @@
 <template>
   <main>
     <section class="title-bar">
-      <h1>Blog Posts</h1>
       <ArticleSearch />
     </section>
     <section class="posts">
@@ -52,13 +51,10 @@ export default {
 
 <style scoped>
 main {
-  @apply flex-grow flex flex-col flex-nowrap mb-auto p-14 bg-gray-200;
+  @apply flex-grow flex flex-col flex-nowrap mb-auto px-4 pt-14 bg-gray-200;
 }
 .title-bar {
   @apply justify-self-start flex flex-nowrap justify-around content-center;
-}
-h1 {
-  @apply text-2xl font-bold pt-2.5;
 }
 .posts {
   @apply flex justify-around;

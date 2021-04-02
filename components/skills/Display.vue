@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex flex-col flex-nowrap w-40 md:w-80 m-2 p-2 border-2 border-gray-300 rounded-lg shadow-lg bg-gray-50 animate-fadeIn3s;
+  @apply flex flex-col flex-nowrap w-96 md:w-80 m-2 p-2 border-2 border-gray-300 rounded-lg shadow-lg bg-gray-50 animate-fadeIn3s;
 }
 h3 {
   @apply font-medium;

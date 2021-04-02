@@ -34,6 +34,6 @@ export default {
   @apply text-white no-underline;
 }
 .nuxt-link-exact-active {
-  @apply text-gray-900 text-lg;
+  @apply text-gray-300 text-xl font-semibold;
 }
 </style>

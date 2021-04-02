@@ -1,8 +1,6 @@
 <template>
   <main id="top" class="skills">
     <section class="title-bar">
-      <h1>Skills</h1>
-      <br />
       <nav>
         <a
           v-for="(group, index) in groupings"
@@ -10,7 +8,7 @@
           v-scroll-to="{ el: `#${group.title.toLowerCase()}` }"
           href="#"
         >
-          {{ group.title }}
+          <span v-if="group.title !== 'Front-End'">{{ group.title }}</span>
         </a>
       </nav>
     </section>
@@ -69,13 +67,10 @@ export default {
 
 <style scoped>
 main {
-  @apply flex flex-col flex-nowrap justify-around bg-gray-200 p-14 mb-auto;
+  @apply flex flex-col flex-nowrap justify-around bg-gray-200 px-4 pt-14 mb-auto;
 }
 .title-bar {
   @apply flex flex-col flex-nowrap justify-center items-center;
-}
-h1 {
-  @apply text-2xl font-bold p-2.5;
 }
 nav {
   @apply flex flex-row flex-nowrap;

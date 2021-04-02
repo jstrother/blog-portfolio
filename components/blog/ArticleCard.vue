@@ -43,7 +43,7 @@ export default {
 
 <style scoped>
 .card {
-  @apply flex flex-col flex-wrap m-2 rounded-lg shadow-lg bg-gray-50 animate-fadeIn3s;
+  @apply flex flex-col flex-wrap m-2 p-2 rounded-lg shadow-lg bg-gray-50 animate-fadeIn3s;
 }
 img {
   @apply max-w-full max-h-20 rounded-t-lg;

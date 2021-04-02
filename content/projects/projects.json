@@ -27,13 +27,6 @@
       "description": "I built this site for an artist friend of mine as his online portfolio. I learned VueJS and Vuex for this project as Nate's single largest requirement was that the site be easy for him to maintain. There is no traditional database for this site. All of the info displayed is from a JSON file created to help his chief requirement.",
       "liveExample": "http://www.natentaylor.com/",
       "gitHub": "https://github.com/jstrother/natentaylor"
-    },
-    {
-      "name": "Hot or Cold",
-      "image": "img/projects/hot-cold.png",
-      "description": "A game where the program chooses a random number and the player tries to guess it in as few tries as possible. Although initially built as pure HTML, CSS, and JS, I refactored this when I started learning React and Redux. First, I created the necessary React components to control the view. Then, I used Redux to set up the flow of data through the app. This was the project that taught me the value of state and how to control it properly.",
-      "liveExample": "https://hot-cold-redux.herokuapp.com/",
-      "gitHub": "https://github.com/jstrother/hot-cold-redux"
     }
   ]
 }
