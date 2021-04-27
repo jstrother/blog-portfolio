@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "name": "Nate Taylor's Portfolio",
+      "description": "Nate came back to me looking to get additional work done on the site, including a change in some imagery. I rebuilt this using Svelte and Tailwind CSS. The images pop a little more thanks to Tailwind making things like box-shadow easier, the whole site is quicker to load thanks to Svelte's compile-at-build functionality, and the responsiveness is a little snappier thanks to both being lightweight yet very powerful.",
+      "image": "img/projects/Nate-Site-v2.jpg",
+      "liveExample": "http://www.natentaylor.com/",
+      "gitHub": "https://github.com/jstrother/natentaylor-v2"
+    },
+    {
       "name": "Fantasy Soccer League",
       "image": "img/projects/work-in-progress.jpg",
       "description": "This is a fantasy soccer league that pulls in real-world statistics from over 40 real leagues around the world. A user is then able to create a fantasy team based upon one of those leagues, choose players, set a lineup, and compete against other users. This will be built using NuxtJS for the front, NestJS for the back, and MongoDB/Mongoose for storage. This project is going to be my most challenging project to date as I have to not only design the layout, but also determine how the various pieces need to interact with one another.",
@@ -24,8 +31,8 @@
     {
       "name": "Nate Taylor's Portfolio",
       "image": "img/projects/Nate-Site.jpg",
-      "description": "I built this site for an artist friend of mine as his online portfolio. I learned VueJS and Vuex for this project as Nate's single largest requirement was that the site be easy for him to maintain. There is no traditional database for this site. All of the info displayed is from a JSON file created to help his chief requirement.",
-      "liveExample": "http://www.natentaylor.com/",
+      "description": "I built this site for an artist friend of mine as his online portfolio. I learned VueJS and Vuex for this project as Nate's single largest requirement was that the site be easy for him to maintain. There is no traditional database for this site. All of the info displayed is from a JSON file created to help his chief requirement. This has been replaced by version 2 mentioned above.",
+      "liveExample": "",
       "gitHub": "https://github.com/jstrother/natentaylor"
     }
   ]
