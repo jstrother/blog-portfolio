@@ -1,7 +1,7 @@
 {
   "projects": [
     {
-      "name": "Nate Taylor's Portfolio",
+      "name": "Nate Taylor's Portfolio (Version 2)",
       "description": "Nate came back to me looking to get additional work done on the site, including a change in some imagery. I rebuilt this using Svelte and Tailwind CSS. The images pop a little more thanks to Tailwind making things like box-shadow easier, the whole site is quicker to load thanks to Svelte's compile-at-build functionality, and the responsiveness is a little snappier thanks to both being lightweight yet very powerful.",
       "image": "img/projects/Nate-Site-v2.jpg",
       "liveExample": "http://www.natentaylor.com/",
